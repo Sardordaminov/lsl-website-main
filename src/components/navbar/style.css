@@ -3,28 +3,35 @@
   padding: 20px 0px;
   background-color: #fff;
 }
+
 .main-navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
+
 .main-navbar img {
   width: 170px;
   height: 55px;
 }
+
 .main-navbar ul {
   display: flex;
   align-items: center;
 }
+
 .main-navbar ul li {
   margin: 0px 10px;
   cursor: pointer;
 }
+
 .multilang-btn {
   position: relative;
   width: 100px;
   height: 40px;
 }
+
 .multilang-button {
   display: flex;
   align-items: center;
@@ -38,15 +45,18 @@
   transition: 0.2s ease;
   border-radius: 5px;
   font-size: 16px;
+
   &:active {
     background-color: #e1e1e1;
   }
 }
+
 .multilang-button i {
   font-size: 13px;
   margin-left: 5px;
   transition: 0.2s ease;
 }
+
 .multilang-btn-menu {
   display: none;
   flex-direction: column;
@@ -59,12 +69,15 @@
   border-radius: 5px;
   padding: 7px;
 }
-.multilang-btn-menu.active{
-    display: flex;
+
+.multilang-btn-menu.active {
+  display: flex;
 }
-.multilang-button.active i{
-    transform: rotate(180deg);
+
+.multilang-button.active i {
+  transform: rotate(180deg);
 }
+
 .multilang-btn-menu button {
   height: 35px;
   font-size: 16px;
@@ -73,11 +86,18 @@
   background-color: transparent;
   cursor: pointer;
   transition: 0.1s ease;
+
   &:hover {
     background-color: #6282c4;
     color: #fff;
   }
+
   &:active {
     background-color: #6283c4b4;
   }
+}
+
+.theme-switcher-btn {
+  width: 30px;
+  height: 30px;
 }
