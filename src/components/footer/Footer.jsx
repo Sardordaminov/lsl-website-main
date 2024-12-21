@@ -32,19 +32,19 @@ const Footer = () => {
           <div className="footer-main-item">
             <h2>COURSES</h2>
             <p className='footer-main-item-link'>
-            <i class="fa-solid fa-arrow-right-long"></i>
-            Development</p>
+              <i class="fa-solid fa-arrow-right-long"></i>
+              Development</p>
             <p className='footer-main-item-link'>
-            <i class="fa-solid fa-arrow-right-long"></i>
+              <i class="fa-solid fa-arrow-right-long"></i>
               Web design</p>
             <p className='footer-main-item-link'>
-            <i class="fa-solid fa-arrow-right-long"></i>
+              <i class="fa-solid fa-arrow-right-long"></i>
               SEO Optimize</p>
             <p className='footer-main-item-link'>
-            <i class="fa-solid fa-arrow-right-long"></i>
+              <i class="fa-solid fa-arrow-right-long"></i>
               Marketing</p>
             <p className='footer-main-item-link'>
-            <i class="fa-solid fa-arrow-right-long"></i>
+              <i class="fa-solid fa-arrow-right-long"></i>
               Technology</p>
           </div>
           <div className="footer-main-item">
